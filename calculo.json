@@ -1,0 +1,84 @@
+{
+  "definicion": "El cálculo es una rama de las matemáticas que estudia el cambio y el movimiento mediante el uso de límites, derivadas e integrales.",
+
+  "limites": {
+    "definicion": "El límite de una función describe el valor al que se acerca la función cuando la variable independiente se acerca a un punto específico.",
+    "notacion": "Se denota como limₓ→a f(x) = L, donde 'x' se acerca a 'a' y la función f(x) se acerca a L.",
+    "propiedades": [
+      "El límite de una suma es la suma de los límites.",
+      "El límite de un producto es el producto de los límites.",
+      "El límite de un cociente es el cociente de los límites, siempre que el límite del denominador no sea cero."
+    ],
+    "limites_infinito": "Cuando x tiende a infinito, se analiza el comportamiento de la función cuando x crece sin límite.",
+    "limites_unilaterales": {
+      "limite_izquierdo": "limₓ→a⁻ f(x), límite cuando x se acerca a 'a' desde la izquierda.",
+      "limite_derecho": "limₓ→a⁺ f(x), límite cuando x se acerca a 'a' desde la derecha."
+    }
+  },
+
+  "continuidad": {
+    "definicion": "Una función es continua en un punto si el límite en ese punto existe y es igual al valor de la función.",
+    "condiciones": [
+      "La función está definida en el punto.",
+      "Existe el límite de la función cuando x se acerca al punto.",
+      "El valor de la función en el punto es igual al límite."
+    ]
+  },
+
+  "derivadas": {
+    "definicion": "La derivada de una función representa la tasa de cambio instantánea o la pendiente de la tangente a la curva en un punto.",
+    "notacion": ["f'(x)", "dy/dx", "D[f(x)]"],
+    "reglas_basicas": {
+      "constante": "La derivada de una constante es 0.",
+      "potencia": "La derivada de x^n es n*x^(n-1).",
+      "suma": "La derivada de una suma es la suma de las derivadas.",
+      "producto": "La derivada de u*v es u'v + uv'.",
+      "cociente": "La derivada de u/v es (u'v - uv') / v².",
+      "cadena": "La derivada de f(g(x)) es f'(g(x)) * g'(x)."
+    },
+    "derivadas_comunes": {
+      "senx": "cos(x)",
+      "cosx": "-sen(x)",
+      "tanx": "sec²(x)",
+      "exponencial": "La derivada de e^x es e^x.",
+      "logaritmo": "La derivada de ln(x) es 1/x."
+    }
+  },
+
+  "integrales": {
+    "definicion": "La integral es la operación inversa a la derivada, que representa el área bajo la curva de una función.",
+    "tipos": {
+      "indefinida": "Integral sin límites, representa una familia de funciones.",
+      "definida": "Integral con límites, representa el área bajo la curva entre dos puntos."
+    },
+    "propiedades": [
+      "La integral de una suma es la suma de las integrales.",
+      "La integral de una constante multiplicada por una función es la constante multiplicada por la integral de la función."
+    ],
+    "metodos_de_integracion": [
+      "Sustitución",
+      "Por partes",
+      "Fracciones parciales",
+      "Integración por partes"
+    ],
+    "integrales_comunes": {
+      "x^n": "(x^(n+1)) / (n+1) + C, n ≠ -1",
+      "1/x": "ln|x| + C",
+      "senx": "-cos(x) + C",
+      "cosx": "sen(x) + C",
+      "e^x": "e^x + C"
+    }
+  },
+
+  "teorema_fundamental_calculo": {
+    "parte1": "Establece que la integral definida de una función continua se puede calcular usando su función primitiva.",
+    "parte2": "Afirma que la derivada de la integral definida de una función es igual a la función original."
+  },
+
+  "series": {
+    "definicion": "Una serie es la suma de los términos de una sucesión.",
+    "series_potencia": "Series expresadas en términos de potencias de una variable.",
+    "series_de_Taylor": "Una representación de funciones como series infinitas basadas en derivadas evaluadas en un punto.",
+    "series_de_Maclaurin": "Caso especial de la serie de Taylor centrada en cero."
+  }
+}
