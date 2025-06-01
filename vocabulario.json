@@ -1,0 +1,43 @@
+{
+  "algebra": ["álgebra", "algebra", "ecuación", "ecuaciones", "incógnita", "despejar", "variable", "expresión algebraica", "polinomio", "factorización", "producto notable", "suma de cuadrados", "diferencia de cuadrados", "identidad", "lineal", "cuadrática", "raíz cuadrada", "raíz", "radical", "coeficiente", "grado", "monomio", "binomio", "trinomio", "inecuación", "inecuaciones", "sistema de ecuaciones", "sistema", "igualdad", "desigualdad"],
+  
+  "derivada": ["derivada", "derivar", "tasa de cambio", "pendiente instantánea", "función derivada", "regla de la cadena", "derivada implícita", "derivada parcial", "diferenciación", "derivada segunda", "segunda derivada", "notación de derivada", "dx", "dy", "límites", "límite", "continuidad", "función continua", "diferenciabilidad"],
+  
+  "integral": ["integral", "integrar", "integración", "área bajo la curva", "antiderivada", "integral definida", "integral indefinida", "teorema fundamental del cálculo", "sustitución", "integral por partes", "integral impropia", "límites de integración", "función primitiva"],
+  
+  "matriz": ["matriz", "matrices", "vector", "vector columna", "vector fila", "determinante", "traspuesta", "inversa", "sistema lineal", "espacio vectorial", "rango", "producto matricial", "multiplicación de matrices", "diagonal", "matriz identidad", "matriz nula"],
+  
+  "geometria": ["geometría", "geometria", "figuras geométricas", "triángulo", "cuadrado", "rectángulo", "círculo", "polígono", "perímetro", "área", "volumen", "ángulo", "ángulos", "teorema de pitágoras", "hipotenusa", "cateto", "segmento", "punto", "línea", "recta", "plano", "coordenadas", "circunferencia", "poliedro", "cilindro", "cono", "esfera"],
+  
+  "funcion": ["función", "funcion", "dominio", "rango", "gráfica", "variables", "variable independiente", "variable dependiente", "función lineal", "función cuadrática", "función exponencial", "función logarítmica", "función trigonométrica", "valor absoluto", "crecimiento", "decrecimiento", "continuidad"],
+  
+  "ecuacion": ["ecuación", "ecuaciones", "resolver ecuación", "incógnita", "despejar", "igualdad", "grado", "lineal", "cuadrática", "polinómica", "sistema de ecuaciones", "solución", "raíz", "valor", "formula cuadrática"],
+  
+  "logaritmo": ["logaritmo", "log", "logaritmos", "base", "logaritmo natural", "logaritmo decimal", "propiedades del logaritmo", "cambio de base"],
+  
+  "trigonometria": ["trigonometría", "trigonometria", "seno", "coseno", "tangente", "cotangente", "secante", "cosecante", "identidades trigonométricas", "ángulo", "radianes", "grados", "triángulo rectángulo", "ley de senos", "ley de cosenos"],
+  
+  "limite": ["límite", "limite", "límite lateral", "límite infinito", "límite en el infinito", "continuidad", "función continua", "discontinuidad", "indeterminación"],
+  
+  "sistema": ["sistema", "sistema de ecuaciones", "sistema lineal", "matrices", "método de sustitución", "método de igualación", "método gráfico", "método de eliminación"],
+  
+  "polinomio": ["polinomio", "grado", "coeficiente", "monomio", "binomio", "trinomio", "factorización", "raíz", "cero del polinomio", "teorema del residuo"],
+  
+  "vectores": ["vector", "vectores", "vector unitario", "producto punto", "producto cruz", "módulo", "dirección", "ángulo entre vectores", "componente vectorial"],
+  
+  "estadistica": ["estadística", "media", "mediana", "moda", "varianza", "desviación estándar", "probabilidad", "distribución", "muestra", "población"],
+  
+  "probabilidad": ["probabilidad", "evento", "evento independiente", "evento dependiente", "probabilidad condicional", "combinatoria", "permutación", "espacio muestral"],
+
+  "numeros": ["números", "números reales", "números enteros", "números racionales", "números irracionales", "números complejos", "conjunto numérico", "número primo", "número par", "número impar"],
+
+  "sucesiones": ["sucesión", "sucesiones", "serie", "serie geométrica", "serie aritmética", "progresión", "progresión aritmética", "progresión geométrica"],
+
+  "derivadas": ["derivada", "derivadas", "regla de la cadena", "regla del producto", "regla del cociente"],
+
+  "integrales": ["integral", "integrales", "integración por partes", "integración por sustitución", "integral impropia"],
+
+  "continuidad": ["continuidad", "función continua", "discontinuidad", "función discontinua"],
+
+  "otros": ["matemáticas", "matematicas", "problema", "resolver", "explicar", "ejercicio", "ayuda", "tarea", "estudio"]
+}
