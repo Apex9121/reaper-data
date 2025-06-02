@@ -1,0 +1,127 @@
+{
+  "algebra": {
+    "introduccion": "El álgebra es una rama de las matemáticas que utiliza símbolos para representar números y operaciones.",
+    "conceptos_basicos": {
+      "expresion_algebraica": "Combinación de números, letras y operaciones.",
+      "terminos_semejantes": "Tienen la misma parte literal.",
+      "monomio": "Expresión de un solo término.",
+      "binomio": "Expresión de dos términos.",
+      "trinomio": "Expresión de tres términos.",
+      "polinomio": "Expresión de varios términos.",
+      "valor_numerico": "Resultado al sustituir variables por números."
+    },
+    "ecuaciones": {
+      "lineales": "ax + b = 0",
+      "cuadraticas": "ax² + bx + c = 0",
+      "metodos_resolucion": ["sustitucion", "igualacion", "reduccion", "grafico"],
+      "formula_general": "x = (-b ± √(b² - 4ac)) / 2a"
+    },
+    "productos_notables": {
+      "cuadrado_binomio": "(a ± b)² = a² ± 2ab + b²",
+      "diferencia_cuadrados": "a² - b² = (a - b)(a + b)"
+    },
+    "factorizacion": {
+      "factor_comun": "Extraer el factor común.",
+      "agrupacion": "Agrupar términos similares.",
+      "trinomio_cuadrado_perfecto": "a² ± 2ab + b² = (a ± b)²"
+    },
+    "racionales_y_radicales": {
+      "expresiones_racionales": "Fracciones algebraicas.",
+      "radicacion": "Operación inversa de la potenciación."
+    },
+    "potenciacion_y_exponentes": {
+      "potencia": "aⁿ = a * a * ... * a (n veces)",
+      "leyes_exponentes": ["aⁿ * aᵐ = aⁿ⁺ᵐ", "(aⁿ)ᵐ = aⁿᵐ", "a⁰ = 1"]
+    },
+    "desigualdades": {
+      "tipos": ["<", ">", "≤", "≥"],
+      "representacion": "En la recta numérica o con intervalos."
+    }
+  },
+
+  "geometria": {
+    "introduccion": "La geometría estudia las formas, tamaños, posiciones y propiedades del espacio.",
+    "conceptos_basicos": {
+      "punto": "No tiene dimensiones.",
+      "recta": "Sucesión infinita de puntos en una dimensión.",
+      "plano": "Superficie bidimensional.",
+      "angulo": "Apertura entre dos rectas que se cruzan."
+    },
+    "tipos_de_angulos": {
+      "agudo": "Menor de 90°",
+      "recto": "Igual a 90°",
+      "obtuso": "Mayor de 90°",
+      "llano": "Igual a 180°",
+      "completo": "360°"
+    },
+    "triangulos": {
+      "segun_lados": ["equilatero", "isoceles", "escaleno"],
+      "segun_angulos": ["acutangulo", "rectangulo", "obtusangulo"],
+      "teorema_pitagoras": "a² + b² = c²"
+    },
+    "cuadrilateros": {
+      "tipos": ["cuadrado", "rectangulo", "rombo", "romboide", "trapecio"],
+      "perimetros_y_areas": {
+        "cuadrado": "P = 4l, A = l²",
+        "rectangulo": "P = 2(l + a), A = l * a"
+      }
+    },
+    "circunferencia_y_circulo": {
+      "elementos": ["radio", "diametro", "cuerda", "arco", "centro"],
+      "formulas": {
+        "longitud": "L = 2πr",
+        "area": "A = πr²"
+      }
+    },
+    "geometria_espacial": {
+      "figuras_3D": ["cubo", "prisma", "cilindro", "esfera", "cono", "piramide"],
+      "volumenes": {
+        "cubo": "V = a³",
+        "esfera": "V = 4/3πr³"
+      }
+    }
+  },
+
+  "calculo": {
+    "introduccion": "El cálculo estudia el cambio y el movimiento. Se divide en diferencial e integral.",
+    "limites": {
+      "concepto": "Valor al que se aproxima una función.",
+      "tecnicas": ["sustitución", "factorización", "racionalización"]
+    },
+    "derivadas": {
+      "definicion": "Tasa de cambio instantánea.",
+      "reglas_basicas": {
+        "constante": "d/dx c = 0",
+        "potencia": "d/dx xⁿ = n * xⁿ⁻¹",
+        "suma_y_resta": "Se derivan término a término"
+      },
+      "interpretacion_grafica": "Pendiente de la tangente."
+    },
+    "integrales": {
+      "definicion": "Área bajo la curva.",
+      "reglas_basicas": {
+        "potencia": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C",
+        "constante": "∫c dx = c * x + C"
+      },
+      "metodos": ["por partes", "sustitución"]
+    },
+    "aplicaciones": {
+      "velocidad": "Derivada de la posición.",
+      "area": "Integral de una función positiva.",
+      "volumen": "Revolución de áreas con integrales definidas."
+    }
+  },
+
+  "vocabulario": {
+    "despejar": "Dejar una variable sola en una ecuación.",
+    "resolver": "Encontrar el valor desconocido.",
+    "variable": "Letra que representa un número.",
+    "constante": "Valor que no cambia.",
+    "funcion": "Relación entre variables.",
+    "pendiente": "Inclinación de una recta.",
+    "raiz": "Solución de una ecuación o radical.",
+    "grado": "Exponente mayor de una expresión.",
+    "ordenar": "Organizar por términos o grado.",
+    "graficar": "Representar visualmente en el plano."
+  }
+}
